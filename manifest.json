@@ -1,0 +1,19 @@
+{
+    "name": "ASA Stats Tracker",
+    "description": "ASA Stats Tracker",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "https://www.asastats.com/"
+    ]
+}
